@@ -1,0 +1,17 @@
+[package]
+name = "ripper"
+version = "0.1.0"
+edition = "2021"
+license = "GPLv3"
+
+[dependencies]
+reqwest = "0.12.5"
+scraper = "0.19.0"
+tokio = { version = "1.38.0", features = ["full"] }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.120"
+anyhow = "1.0.86"
+clap = { version = "4.5.8", features = ["derive", "suggestions"] }
+clap_complete = "4.5.7"
+paste = "1.0.15"
+inquire = "0.7.5"
